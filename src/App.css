@@ -13,19 +13,19 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-Bar {
+  height: 60px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: justify;
+  justify-content: space-between;
 }
 
 .App-link {
-  color: #61dafb;
+  height: 60px;
+  display: flex;
+  width: 300px;
+  margin-right: 20px;
+  justify-content: space-between;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,222 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Daniel {
+  margin-left: 32px;
+  margin-top: 17px;
+  width: 75px;
+  height: 25px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #8d1c31;
+}
+
+.quem-sou {
+  width: 80px;
+  height: 19px;
+  margin-top: 20px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  text-align: center;
+  color: #8d1c31;
+}
+
+.container-foto {
+  height: 520px;
+  display: flex;
+  background-color: #8d1c31;
+}
+
+.daniel-foto {
+  height: 520px;
+  margin-left: 0px;
+}
+
+.eu-sou-daniel {
+  margin-top: 145px;
+  margin-left: 0px;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.29px;
+  color: #d97824;
+}
+
+.eu-sou-daniel-text {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
+
+.container-sou {
+  width: 100%;
+}
+
+.container-logo {
+  padding-top: 350px;
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+.container-azul-escuro {
+  height: 500px;
+  background-color: #063447;
+  display: flex;
+}
+.container-azul-claro {
+  height: 500px;
+  background-color: #33a6a6;
+  display: flex;
+  flex-direction: column;
+}
+.container-beje {
+  height: 438px;
+  background-color: #d97824;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-claro {
+  height: 100vh;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-vermelho {
+  height: 400px;
+  background-color: #8d1c31;
+  display: flex;
+}
+
+footer {
+  height: 60px;
+
+  background-color: #33a6a6;
+}
+
+.container-azul-escuro-text {
+  width: 50%;
+  margin-left: 20%;
+  background-color: #063447;
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+}
+
+.sobre-mim {
+  margin-top: 70px;
+  width: 250px;
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
+
+.sobre-mim-text {
+  text-align: left;
+  font-family: Montserrat;
+  width: 80%;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.1;
+  color: #ffffff;
+}
+.meus-conhecimentos {
+  width: 100%;
+  text-align: justify-all;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  text-align: center;
+  color: #ffffff;
+}
+.meus-projetos {
+  width: 100%;
+  margin-top: 80px;
+  text-align: justify-all;
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.15px;
+  text-align: center;
+  color: #45525b;
+}
+h2 {
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 55px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+}
+.container-metade {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  text-align: left;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.22px;
+  color: #ffffff;
+}
+.metade {
+  width: 300px;
+}
+
+.curso {
+  text-align: left;
+  margin-top: 70px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #ffffff;
 }
