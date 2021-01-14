@@ -109,8 +109,26 @@ function App() {
         <p className="meus-projetos">Meus Projetos</p>
         <Projects />
       </div>
-      <div className="container-vermelho"></div>
-      <footer></footer>
+      <div className="container-vermelho">
+        <p className="contrate-me">Contrate me !!</p>
+        <p className="contrate-me-text">
+          Procuro oportunidade de trabalho onde eu possa aprender, me
+          desenvolver e evoluir na minha carreia profissional. E-mail para
+          contato: vianadaniel@hotmail.com Celular: (34) 98885-8854
+        </p>
+        <div className="icone-container">
+          <i
+            className="fa fa-linkedin-square fa-2x"
+            style={{ color: "white" }}
+            aria-hidden="true"
+          ></i>
+          <i class="fa fa-github fa-2x" style={{ color: "white" }}></i>
+          <i class="fa fa-whatsapp fa-2x" style={{ color: "white" }}></i>
+        </div>
+      </div>
+      <footer>
+        <p className="nome">Copyright &copy; 2002 Daniel Almeida</p>
+      </footer>
     </div>
   )
 }

@@ -133,7 +133,7 @@
 }
 
 .container-claro {
-  height: 100vh;
+  height: 120vh;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
@@ -143,11 +143,14 @@
   height: 400px;
   background-color: #8d1c31;
   display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
 footer {
   height: 60px;
-
+  display: flex;
   background-color: #33a6a6;
 }
 
@@ -252,5 +255,48 @@ h3 {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.28px;
+  color: #ffffff;
+}
+.nome {
+  margin-left: 32px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-align: center;
+  color: #ffffff;
+}
+.icone-container {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.contrate-me {
+  font-family: Montserrat;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.25px;
+  text-align: center;
+  color: #ffffff;
+}
+.contrate-me-text {
+  width: 50%;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.24px;
+  text-align: center;
   color: #ffffff;
 }
