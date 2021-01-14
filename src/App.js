@@ -127,7 +127,7 @@ function App() {
         </div>
       </div>
       <footer>
-        <p className="nome">Copyright &copy; 2002 Daniel Almeida</p>
+        <p className="nome">Copyright &copy; 2020 Daniel Almeida</p>
       </footer>
     </div>
   )
