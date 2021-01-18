@@ -300,3 +300,25 @@ h3 {
   text-align: center;
   color: #ffffff;
 }
+.projetos {
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  color: #33a6a6;
+  text-align: left;
+}
+.projeto-text {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  color: #33a6a6;
+  text-align: left;
+}

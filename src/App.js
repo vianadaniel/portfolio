@@ -79,7 +79,7 @@ function App() {
         </div>
       </div>
       <div className="container-beje">
-        <p className="meus-conhecimentos">Meus Conhecimentos</p>
+        <p className="meus-conhecimentos">Educação</p>
         <div className="container-conhecimentos">
           <div className="container-metade">
             <div className="metade">
