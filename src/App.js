@@ -1,7 +1,15 @@
 import "./App.css"
 import { Projects } from "./Projects"
+import React, { useRef } from "react"
 
 function App() {
+  const myRefQuemSou = useRef(null)
+  const executeScroll = () => myRefQuemSou.current.scrollIntoView()
+  const myRefProjetos = useRef(null)
+  const executeScroll1 = () => myRefProjetos.current.scrollIntoView()
+  const myRefContato = useRef(null)
+  const executeScroll2 = () => myRefContato.current.scrollIntoView()
+
   return (
     <div className="App">
       <header className="App-Bar">
@@ -9,9 +17,15 @@ function App() {
           <p className="Daniel">Daniel</p>
         </div>
         <div className="App-link">
-          <p className="quem-sou">quem sou</p>
-          <p className="quem-sou">projetos</p>
-          <p className="quem-sou">contato</p>
+          <p onClick={executeScroll} className="quem-sou">
+            quem sou
+          </p>
+          <p onClick={executeScroll1} className="quem-sou">
+            projetos
+          </p>
+          <p onClick={executeScroll2} className="quem-sou">
+            contato
+          </p>
         </div>
       </header>
       <div className="container-foto">
@@ -33,7 +47,7 @@ function App() {
           <i class="fa fa-whatsapp fa-2x" style={{ color: "white" }}></i>
         </div>
       </div>
-      <div className="container-azul-escuro">
+      <div ref={myRefQuemSou} className="container-azul-escuro">
         <div className="container-azul-escuro-text">
           <p className="sobre-mim">Sobre mim</p>
           <p className="sobre-mim-text">
@@ -105,13 +119,13 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="container-claro">
+      <div ref={myRefProjetos} className="container-claro">
         <p className="meus-projetos">Meus Projetos</p>
         <Projects />
       </div>
       <div className="container-vermelho">
         <p className="contrate-me">Contrate me !!</p>
-        <p className="contrate-me-text">
+        <p ref={myRefContato} className="contrate-me-text">
           Procuro oportunidade de trabalho onde eu possa aprender, me
           desenvolver e evoluir na minha carreia profissional. E-mail para
           contato: vianadaniel@hotmail.com Celular: (34) 98885-8854

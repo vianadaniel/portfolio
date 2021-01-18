@@ -1,8 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 
+const Container = styled.div`
+  overflow: auto;
+  white-space: nowrap;
+`
+
 const Card = styled.div`
   margin-top: 20px;
+  margin-bottom: 100px;
   display: flex;
   flex-grow: 1;
   justify-content: center;
@@ -26,23 +32,22 @@ const Botao = styled.button`
 
 export const Projects = () => {
   return (
-    <>
+    <Container>
       <Card>
-        <ImgProject src="photoshare.png" alt="Projeto" />
+        <ImgProject src="photo.gif" alt="Projeto" />
         <CardContainer>
           <p className="projetos">PhotoShare FullStack</p>
           <p className="projeto-text">
             Uma rede social de compartilhamento de fotos, React, Typescript e
             SQL
           </p>
-          <Botao>
-            CODE ON <br />
-            <i class="fa fa-github fa-1x" style={{ color: "#33a6a6e" }}></i>
-          </Botao>
+          <a href="https://youtu.be/CEnqzJq2Vwo">
+            <Botao>YouTube</Botao>
+          </a>
         </CardContainer>
       </Card>
       <Card>
-        <ImgProject src="ecommerce.png" alt="Projeto" />
+        <ImgProject src="ecommerce.gif" alt="Projeto" />
         <CardContainer>
           <p className="projetos" style={{ color: "#d97824" }}>
             Rural E-Commerce FullStack
@@ -52,13 +57,12 @@ export const Projects = () => {
             MongoDb
           </p>
           <Botao style={{ border: "2px solid #d97824", color: "#d97824" }}>
-            CODE ON <br />
-            <i class="fa fa-github fa-1x" style={{ color: "#d97824" }}></i>
+            YouTube
           </Botao>
         </CardContainer>
       </Card>
       <Card>
-        <ImgProject src="Rappid4.png" alt="Projeto" />
+        <ImgProject src="rappi.gif" alt="Projeto" />
         <CardContainer>
           <p className="projetos" style={{ color: "#8d1c31" }}>
             Rappid4 Front-End
@@ -67,12 +71,14 @@ export const Projects = () => {
             Um similiar do iFood com React e um filtro que cria botões de acordo
             com as categorias
           </p>
-          <Botao style={{ border: "2px solid #8d1c31", color: "#8d1c31" }}>
-            CODE ON <br />
-            <i class="fa fa-github fa-1x" style={{ color: "#8d1c31" }}></i>
-          </Botao>
+
+          <a href="https://www.youtube.com/watch?v=NI2J9ctOVhc&t=368s">
+            <Botao style={{ border: "2px solid #8d1c31", color: "#8d1c31" }}>
+              YouTube
+            </Botao>
+          </a>
         </CardContainer>
       </Card>
-    </>
+    </Container>
   )
 }
