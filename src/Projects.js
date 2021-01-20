@@ -19,7 +19,8 @@ const Card = styled.div`
 const ImgProject = styled.img`
   height: 150px;
   @media (max-width: 650px) {
-    width: 80%;
+    width: 100%;
+    height: 200px;
   }
 `
 const CardContainer = styled.div`

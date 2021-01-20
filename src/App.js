@@ -131,13 +131,15 @@ function App() {
           contato: vianadaniel@hotmail.com Celular: (34) 98885-8854
         </p>
         <div className="icone-container">
-          <i
-            className="fa fa-linkedin-square fa-2x"
-            style={{ color: "white" }}
-            aria-hidden="true"
-          ></i>
-          <i class="fa fa-github fa-2x" style={{ color: "white" }}></i>
-          <i class="fa fa-whatsapp fa-2x" style={{ color: "white" }}></i>
+          <a href="https://api.whatsapp.com/send?phone=5534988858854&text=Estive no seu portfólio!">
+            <i
+              className="fa fa-linkedin-square fa-2x"
+              style={{ color: "white" }}
+              aria-hidden="true"
+            ></i>
+            <i class="fa fa-github fa-2x" style={{ color: "white" }}></i>
+            <i class="fa fa-whatsapp fa-2x" style={{ color: "white" }}></i>
+          </a>
         </div>
       </div>
       <footer>
