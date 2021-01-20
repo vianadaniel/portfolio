@@ -7,12 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-Bar {
   height: 60px;
   display: flex;
@@ -312,4 +306,69 @@ h3 {
   letter-spacing: -0.16px;
   color: #33a6a6;
   text-align: left;
+}
+@media (max-width: 650px) {
+  .App-link {
+    display: none;
+  }
+  .daniel-foto {
+    display: none;
+  }
+  .estudo {
+    display: none;
+  }
+  .container-azul-escuro-text {
+    display: flex;
+    width: 100vw;
+  }
+  .container-azul-escuro {
+    display: flex;
+    height: 780px;
+  }
+  .container-azul-claro {
+    height: 700px;
+  }
+  .container-metade {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-beje {
+    height: 750px;
+  }
+
+  .projeto-text {
+    width: 100%;
+  }
+
+  .container-vermelho {
+    width: 100%;
+    height: 550px;
+  }
+
+  .eu-sou-daniel {
+    display: none;
+  }
+  .container-foto {
+    height: 150px;
+  }
+  .container-logo {
+    display: none;
+  }
+  .sobre-mim-text {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .container-azul-escuro-text {
+    width: 70%;
+  }
+  .estudo {
+    display: none;
+  }
+  .sobre-mim-text {
+    width: 100%;
+  }
 }

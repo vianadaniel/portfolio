@@ -66,7 +66,7 @@ function App() {
             desenvolvimento web Fullstack
           </p>
         </div>
-        <img src="group-29.svg" alt="Estudo" />
+        <img src="group-29.svg" className="estudo" alt="Estudo" />
       </div>
       <div className="container-azul-claro">
         <p className="meus-conhecimentos">Meus Conhecimentos</p>
