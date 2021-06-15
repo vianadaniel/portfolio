@@ -14,7 +14,9 @@ function App() {
     <div className="App">
       <header className="App-Bar">
         <div>
-          <p className="Daniel">Daniel</p>
+          <p className="Daniel">
+            Daniel<img id="foto" src="perfil.jpg" alt="foto de perfil"></img>
+          </p>
         </div>
         <div className="App-link">
           <p onClick={executeScroll} className="quem-sou">
@@ -60,9 +62,8 @@ function App() {
             Fiz dezenas de cursos pela net. Finalmente entrei em um curso
             Fullstack da Labenu em qual aprendi react, typescript, por 6 meses
             fiz muitos projetos, além disso aprendi orientação a objeto,
-            arquitetura em camadas e infraestrutura da AWS. Fiz um vídeo falando
-            sobre o curso https://www.youtube.com/watch?v=CEnqzJq2Vwo . Agora
-            estou a procura da primeira oportunidade de trabalho na área de
+            arquitetura em camadas e infraestrutura da AWS. Agora estou a
+            procura da primeira oportunidade de trabalho na área de
             desenvolvimento web Fullstack
           </p>
         </div>
@@ -75,7 +76,7 @@ function App() {
             <div className="metade">
               <h2>Front-end</h2>
               <h3>
-                Desenvolvimento de aplicações web utilizando HTML, CSS e
+                Desenvolvimento de aplicações web utilizando React, HTML, CSS e
                 JavaScript. <br />
                 <br /> Criação de sites responsivos seguindo princípio de Mobile
                 First.
@@ -131,14 +132,26 @@ function App() {
           contato: vianadaniel@hotmail.com Celular: (34) 98885-8854
         </p>
         <div className="icone-container">
-          <a href="https://api.whatsapp.com/send?phone=5534988858854&text=Estive no seu portfólio!">
+          <a href="https://www.linkedin.com/in/daniel-viana-almeida/">
             <i
-              className="fa fa-linkedin-square fa-2x"
+              className="fa fa-linkedin-square fa-3x"
               style={{ color: "white" }}
               aria-hidden="true"
             ></i>
-            <i class="fa fa-github fa-2x" style={{ color: "white" }}></i>
-            <i class="fa fa-whatsapp fa-2x" style={{ color: "white" }}></i>
+          </a>
+          <a href="https://github.com/vianadaniel?tab=repositories">
+            <i
+              class="fa fa-github fa-3x"
+              style={{ color: "white", padding: "10px" }}
+            ></i>
+            <i class="fa fa-whatsapp fa-3x" style={{ color: "white" }}></i>
+          </a>
+        </div>
+        <div className="icone-container-p">
+          <a href="https://api.whatsapp.com/send?phone=5534988858854&text=Estive no seu portfólio!">
+            <button>
+              <i class="fa fa-whatsapp fa-3x" style={{ color: "green" }}></i>
+            </button>
           </a>
         </div>
       </div>

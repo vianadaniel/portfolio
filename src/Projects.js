@@ -45,6 +45,23 @@ export const Projects = () => {
   return (
     <Container>
       <Card>
+        <ImgProject src="hacker.png" alt="Projeto" />
+        <CardContainer>
+          <p className="projetos" style={{ color: "#8d1c31" }}>
+            HackerHank
+          </p>
+          <p className="projeto-text" style={{ color: "#8d1c31" }}>
+            Gravo vídeos resolvendo algoritimos e estrutura de dados
+          </p>
+
+          <a href="https://www.youtube.com/channel/UCgLgdwFdGWT4MIImB1PX7lQ">
+            <Botao style={{ border: "2px solid #8d1c31", color: "#8d1c31" }}>
+              YouTube
+            </Botao>
+          </a>
+        </CardContainer>
+      </Card>
+      <Card>
         <ImgProject src="photo.gif" alt="Projeto" />
         <CardContainer>
           <p className="projetos">PhotoShare FullStack</p>
@@ -67,9 +84,11 @@ export const Projects = () => {
             Um E-commerce de produtos rurais, React, Redux (Thunk)
             <br /> Javascript e MongoDb
           </p>
-          <Botao style={{ border: "2px solid #d97824", color: "#d97824" }}>
-            YouTube
-          </Botao>
+          <a href="https://youtu.be/kdt9yy7bsRo">
+            <Botao style={{ border: "2px solid #d97824", color: "#d97824" }}>
+              YouTube
+            </Botao>
+          </a>
         </CardContainer>
       </Card>
       <Card>
@@ -83,7 +102,7 @@ export const Projects = () => {
             <br /> botões de acordo com as categorias
           </p>
 
-          <a href="https://www.youtube.com/watch?v=NI2J9ctOVhc&t=368s">
+          <a href="https://youtu.be/dD7u60Pye_k">
             <Botao style={{ border: "2px solid #8d1c31", color: "#8d1c31" }}>
               YouTube
             </Botao>

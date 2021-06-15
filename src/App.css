@@ -22,11 +22,25 @@
   justify-content: space-between;
 }
 
+#foto {
+  margin-top: 8px;
+  height: 55px;
+  position: absolute;
+  right: 5%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+  visibility: hidden;
+}
+
 .Daniel {
+  display: flex;
   margin-left: 32px;
-  margin-top: 17px;
   width: 75px;
-  height: 25px;
+  height: 100%;
   font-family: Montserrat;
   font-size: 21px;
   font-weight: bold;
@@ -50,6 +64,9 @@
   letter-spacing: -0.22px;
   text-align: center;
   color: #8d1c31;
+}
+.quem-sou:hover {
+  cursor: pointer;
 }
 
 .container-foto {
@@ -260,7 +277,6 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
 }
 .contrate-me {
   font-family: Montserrat;
@@ -274,7 +290,7 @@ h3 {
   color: #ffffff;
 }
 .contrate-me-text {
-  width: 50%;
+  width: 70%;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: normal;
@@ -282,8 +298,12 @@ h3 {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.24px;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
+}
+.icone-container-p {
+  display: none;
+  margin-top: 70px;
 }
 .projetos {
   font-family: Montserrat;
@@ -308,6 +328,23 @@ h3 {
   text-align: left;
 }
 @media (max-width: 650px) {
+  .App-Bar {
+    height: 70px;
+  }
+  #foto {
+    visibility: visible;
+  }
+  .sobre-mim {
+    text-align: left;
+    font-size: 26px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .sobre-mim-text {
+    width: 95%;
+    margin-top: 0px;
+  }
   .App-link {
     display: none;
   }
@@ -319,11 +356,10 @@ h3 {
   }
   .container-azul-escuro-text {
     display: flex;
-    width: 100vw;
   }
   .container-azul-escuro {
     display: flex;
-    height: 780px;
+    overflow: auto;
   }
   .container-azul-claro {
     height: 700px;
@@ -345,7 +381,7 @@ h3 {
 
   .container-vermelho {
     width: 100%;
-    height: 550px;
+    height: 650px;
   }
 
   .eu-sou-daniel {
@@ -359,6 +395,14 @@ h3 {
   }
   .sobre-mim-text {
     margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .icone-container {
+    display: none;
+  }
+  .icone-container-p {
+    display: inline;
+    margin-top: 70px;
   }
 }
 @media (max-width: 1200px) {
