@@ -139,7 +139,7 @@ function App() {
               aria-hidden="true"
             ></i>
           </a>
-          <a href="https://github.com/vianadaniel?tab=repositories">
+          <a href="https://api.whatsapp.com/send?phone=5534988858854&text=Estive no seu portfólio!">
             <i
               class="fa fa-github fa-3x"
               style={{ color: "white", padding: "10px" }}
