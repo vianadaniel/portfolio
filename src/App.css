@@ -1,418 +1,418 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 .App-Bar {
-  height: 60px;
-  display: flex;
-  align-items: justify;
-  justify-content: space-between;
+    height: 60px;
+    display: flex;
+    align-items: justify;
+    justify-content: space-between;
 }
 
 .App-link {
-  height: 60px;
-  display: flex;
-  width: 300px;
-  margin-right: 20px;
-  justify-content: space-between;
+    height: 60px;
+    display: flex;
+    width: 300px;
+    margin-right: 20px;
+    justify-content: space-between;
 }
 
 #foto {
-  margin-top: 8px;
-  height: 55px;
-  position: absolute;
-  right: 5%;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  overflow: hidden;
-  visibility: hidden;
+    margin-top: 8px;
+    height: 55px;
+    position: absolute;
+    right: 5%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 .Daniel {
-  display: flex;
-  margin-left: 32px;
-  width: 75px;
-  height: 100%;
-  font-family: Montserrat;
-  font-size: 21px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.28px;
-  color: #8d1c31;
+    display: flex;
+    margin-left: 32px;
+    width: 75px;
+    height: 100%;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    color: #8d1c31;
 }
 
 .quem-sou {
-  width: 80px;
-  height: 19px;
-  margin-top: 20px;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.22px;
-  text-align: center;
-  color: #8d1c31;
+    width: 80px;
+    height: 19px;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.22px;
+    text-align: center;
+    color: #8d1c31;
 }
 .quem-sou:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .container-foto {
-  height: 520px;
-  display: flex;
-  background-color: #8d1c31;
+    height: 520px;
+    display: flex;
+    background-color: #8d1c31;
 }
 
 .daniel-foto {
-  height: 520px;
-  margin-left: 0px;
+    height: 520px;
+    margin-left: 0px;
 }
 
 .eu-sou-daniel {
-  margin-top: 145px;
-  margin-left: 0px;
-  font-family: Montserrat;
-  font-size: 50px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.29px;
-  color: #d97824;
+    margin-top: 145px;
+    margin-left: 0px;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.29px;
+    color: #d97824;
 }
 
 .eu-sou-daniel-text {
-  font-family: Montserrat;
-  font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.32px;
-  color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    color: #ffffff;
 }
 
 .container-sou {
-  width: 100%;
+    width: 100%;
 }
 
 .container-logo {
-  padding-top: 350px;
-  width: 80px;
-  display: flex;
-  flex-direction: column;
+    padding-top: 350px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
 
-  gap: 20px;
+    gap: 20px;
 }
 .container-azul-escuro {
-  height: 500px;
-  background-color: #063447;
-  display: flex;
+    height: 500px;
+    background-color: #063447;
+    display: flex;
 }
 .container-azul-claro {
-  height: 500px;
-  background-color: #33a6a6;
-  display: flex;
-  flex-direction: column;
+    height: 510px;
+    background-color: #33a6a6;
+    display: flex;
+    flex-direction: column;
 }
 .container-beje {
-  height: 438px;
-  background-color: #d97824;
-  display: flex;
-  flex-direction: column;
+    height: 438px;
+    background-color: #d97824;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-claro {
-  height: 120vh;
-  background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
+    height: 120vh;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-vermelho {
-  height: 400px;
-  background-color: #8d1c31;
-  display: flex;
-  flex-direction: column;
+    height: 400px;
+    background-color: #8d1c31;
+    display: flex;
+    flex-direction: column;
 
-  align-items: center;
+    align-items: center;
 }
 
 footer {
-  height: 60px;
-  display: flex;
-  background-color: #33a6a6;
+    height: 60px;
+    display: flex;
+    background-color: #33a6a6;
 }
 
 .container-azul-escuro-text {
-  width: 50%;
-  margin-left: 20%;
-  background-color: #063447;
-  display: flex;
-  height: 300px;
-  flex-direction: column;
+    width: 50%;
+    margin-left: 20%;
+    background-color: #063447;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
 }
 
 .sobre-mim {
-  margin-top: 70px;
-  width: 250px;
-  font-family: Montserrat;
-  font-size: 42px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.32px;
-  color: #ffffff;
+    margin-top: 70px;
+    width: 250px;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    color: #ffffff;
 }
 
 .sobre-mim-text {
-  text-align: left;
-  font-family: Montserrat;
-  width: 80%;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.1;
-  color: #ffffff;
+    text-align: left;
+    font-family: Montserrat;
+    width: 80%;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 1.1;
+    color: #ffffff;
 }
 .meus-conhecimentos {
-  width: 100%;
-  text-align: justify-all;
-  font-family: Montserrat;
-  font-size: 25px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.15px;
-  text-align: center;
-  color: #ffffff;
+    width: 100%;
+    text-align: justify-all;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.15px;
+    text-align: center;
+    color: #ffffff;
 }
 .meus-projetos {
-  width: 100%;
-  margin-top: 80px;
-  text-align: justify-all;
-  font-size: 25px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.15px;
-  text-align: center;
-  color: #45525b;
+    width: 100%;
+    margin-top: 80px;
+    text-align: justify-all;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.15px;
+    text-align: center;
+    color: #45525b;
 }
 h2 {
-  text-align: left;
-  font-family: Montserrat;
-  font-size: 55px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.32px;
-  color: #ffffff;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    color: #ffffff;
 }
 .container-metade {
-  display: flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 h3 {
-  text-align: left;
+    text-align: left;
 
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.22px;
-  color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.22px;
+    color: #ffffff;
 }
 .metade {
-  width: 300px;
+    width: 300px;
 }
 
 .curso {
-  text-align: left;
-  margin-top: 70px;
-  font-family: Montserrat;
-  font-size: 21px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.28px;
-  color: #ffffff;
+    text-align: left;
+    margin-top: 70px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    color: #ffffff;
 }
 .nome {
-  margin-left: 32px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.24px;
-  text-align: center;
-  color: #ffffff;
+    margin-left: 32px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-align: center;
+    color: #ffffff;
 }
 .icone-container {
-  width: 100%;
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .contrate-me {
-  font-family: Montserrat;
-  font-size: 42px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.25px;
-  text-align: center;
-  color: #ffffff;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #ffffff;
 }
 .contrate-me-text {
-  width: 70%;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.24px;
-  text-align: left;
-  color: #ffffff;
+    width: 70%;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-align: left;
+    color: #ffffff;
 }
 .icone-container-p {
-  display: none;
-  margin-top: 70px;
+    display: none;
+    margin-top: 70px;
 }
 .projetos {
-  font-family: Montserrat;
-  font-size: 21px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.28px;
-  color: #33a6a6;
-  text-align: left;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    color: #33a6a6;
+    text-align: left;
 }
 .projeto-text {
-  font-family: Montserrat;
-  font-size: 12px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.16px;
-  color: #33a6a6;
-  text-align: left;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    color: #33a6a6;
+    text-align: left;
 }
 @media (max-width: 650px) {
-  .App-Bar {
-    height: 70px;
-  }
-  #foto {
-    visibility: visible;
-  }
-  .sobre-mim {
-    text-align: left;
-    font-size: 26px;
-    width: 250px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
-  .sobre-mim-text {
-    width: 95%;
-    margin-top: 0px;
-  }
-  .App-link {
-    display: none;
-  }
-  .daniel-foto {
-    display: none;
-  }
-  .estudo {
-    display: none;
-  }
-  .container-azul-escuro-text {
-    display: flex;
-  }
-  .container-azul-escuro {
-    display: flex;
-    overflow: auto;
-  }
-  .container-azul-claro {
-    height: 700px;
-  }
-  .container-metade {
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
+    .App-Bar {
+        height: 70px;
+    }
+    #foto {
+        visibility: visible;
+    }
+    .sobre-mim {
+        text-align: left;
+        font-size: 26px;
+        width: 250px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .sobre-mim-text {
+        width: 95%;
+        margin-top: 0px;
+    }
+    .App-link {
+        display: none;
+    }
+    .daniel-foto {
+        display: none;
+    }
+    .estudo {
+        display: none;
+    }
+    .container-azul-escuro-text {
+        display: flex;
+    }
+    .container-azul-escuro {
+        display: flex;
+        overflow: auto;
+    }
+    .container-azul-claro {
+        height: 700px;
+    }
+    .container-metade {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
 
-  .container-beje {
-    height: 750px;
-  }
+    .container-beje {
+        height: 750px;
+    }
 
-  .projeto-text {
-    width: 100%;
-  }
+    .projeto-text {
+        width: 100%;
+    }
 
-  .container-vermelho {
-    width: 100%;
-    height: 650px;
-  }
+    .container-vermelho {
+        width: 100%;
+        height: 650px;
+    }
 
-  .eu-sou-daniel {
-    display: none;
-  }
-  .container-foto {
-    height: 150px;
-  }
-  .container-logo {
-    display: none;
-  }
-  .sobre-mim-text {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  .icone-container {
-    display: none;
-  }
-  .icone-container-p {
-    display: inline;
-    margin-top: 70px;
-  }
+    .eu-sou-daniel {
+        display: none;
+    }
+    .container-foto {
+        height: 150px;
+    }
+    .container-logo {
+        display: none;
+    }
+    .sobre-mim-text {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .icone-container {
+        display: none;
+    }
+    .icone-container-p {
+        display: inline;
+        margin-top: 70px;
+    }
 }
 @media (max-width: 1200px) {
-  .container-azul-escuro-text {
-    width: 70%;
-  }
-  .estudo {
-    display: none;
-  }
-  .sobre-mim-text {
-    width: 100%;
-  }
+    .container-azul-escuro-text {
+        width: 70%;
+    }
+    .estudo {
+        display: none;
+    }
+    .sobre-mim-text {
+        width: 100%;
+    }
 }
