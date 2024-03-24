@@ -45,13 +45,13 @@ export const Projects = () => {
   return (
     <Container>
       <Card>
-        <ImgProject src="hacker.png" alt="Projeto" />
+        <ImgProject src="terraform.gif" alt="Projeto" />
         <CardContainer>
           <p className="projetos" style={{ color: "#8d1c31" }}>
-            HackerHank
+            Terraform AWS
           </p>
           <p className="projeto-text" style={{ color: "#8d1c31" }}>
-            Gravo vídeos resolvendo algoritimos e estrutura de dados
+            Infra as code projects
           </p>
 
           <a href="https://www.youtube.com/channel/UCgLgdwFdGWT4MIImB1PX7lQ">
