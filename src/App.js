@@ -56,7 +56,7 @@ function App() {
           <p className="sobre-mim-text">
             Passionate about technology and driven by a deep understanding of
             backend development and DevOps, I bring over 3 years of experience
-            to the table. With a strong focus on Node.js, I have designed
+            to the Web Development. With a strong focus on Node.js, I have designed
             scalable and efficient backend systems, developing and maintaining
             RESTful APIs. My expertise extends to DevOps practices, ensuring the
             reliability and performance of systems through meticulous attention
