@@ -4,7 +4,6 @@
 S3_BUCKET="s3.daniel-aws.info"
 BUILD_DIR="build"
 
-
 npm run build
 
 

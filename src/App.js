@@ -56,11 +56,11 @@ function App() {
           <p className="sobre-mim-text">
             Passionate about technology and driven by a deep understanding of
             backend development and DevOps, I bring over 3 years of experience
-            to the Web Development. With a strong focus on Node.js, I have designed
-            scalable and efficient backend systems, developing and maintaining
-            RESTful APIs. My expertise extends to DevOps practices, ensuring the
-            reliability and performance of systems through meticulous attention
-            to detail and a commitment to best practices.
+            to the Web Development. With a strong focus on Node.js, I have
+            designed scalable and efficient backend systems, developing and
+            maintaining RESTful APIs. My expertise extends to DevOps practices,
+            ensuring the reliability and performance of systems through
+            meticulous attention to detail and a commitment to best practices.
           </p>
         </div>
         <img src="group-29.svg" className="estudo" alt="Estudo" />
@@ -107,13 +107,24 @@ function App() {
               </h3>
             </div>
             <div className="metade">
-              <p className="curso">IMEPAC</p>
-              <h3>College of Software Development</h3>
+              <p className="curso">AWS Cloud Formation - Oregon EAD</p>
+              <h3>
+                This course would be suitable for DevOps engineers, developers,
+                and system administrators looking to learn how to use AWS
+                Services to automate infrastructure provisioning and management
+                in their AWS environments | K8s | Terraform
+              </h3>
             </div>
             <div className="metade">
-              <p className="curso">Tamwood - Web Development</p>
-              <br />
-              <h3>Studying in Vancouver</h3>
+              <p className="curso">Tamwood - Web Developer Co-op</p>
+
+              <h3>
+                Design and code interactive client-facing websites using React.
+                By the end of the program, you will be able to build dynamic
+                websites using a content management system, produce and consume
+                web APIs, and write efficient code demonstrating knowledge of
+                programming concepts.
+              </h3>
             </div>
           </div>
         </div>
