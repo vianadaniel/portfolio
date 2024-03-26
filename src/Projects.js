@@ -72,7 +72,7 @@ export const Projects = () => {
           </p>
 
           <a href="https://palm-oregano-d0d.notion.site/Backend-API-Projects-c60d5cc4637d4ee196837dbaa5c0dfb3?pvs=4">
-            <Botao style={{ border: "2px solid #8d1c31", color: "#d97824" }}>
+            <Botao style={{ border: "2px solid #d97824", color: "#d97824" }}>
               Notion Web Static
             </Botao>
           </a>
