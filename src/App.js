@@ -1,14 +1,14 @@
-import "./App.css"
-import { Projects } from "./Projects"
-import React, { useRef } from "react"
+import "./App.css";
+import { Projects } from "./Projects";
+import React, { useRef } from "react";
 
 function App() {
-  const myRefQuemSou = useRef(null)
-  const executeScroll = () => myRefQuemSou.current.scrollIntoView()
-  const myRefProjetos = useRef(null)
-  const executeScroll1 = () => myRefProjetos.current.scrollIntoView()
-  const myRefContato = useRef(null)
-  const executeScroll2 = () => myRefContato.current.scrollIntoView()
+  const myRefQuemSou = useRef(null);
+  const executeScroll = () => myRefQuemSou.current.scrollIntoView();
+  const myRefProjetos = useRef(null);
+  const executeScroll1 = () => myRefProjetos.current.scrollIntoView();
+  const myRefContato = useRef(null);
+  const executeScroll2 = () => myRefContato.current.scrollIntoView();
 
   return (
     <div className="App">
@@ -20,23 +20,24 @@ function App() {
         </div>
         <div className="App-link">
           <p onClick={executeScroll} className="quem-sou">
-            quem sou
+            whoami
           </p>
           <p onClick={executeScroll1} className="quem-sou">
-            projetos
+            projects
           </p>
           <p onClick={executeScroll2} className="quem-sou">
-            contato
+            contact
           </p>
         </div>
       </header>
       <div className="container-foto">
         <img src="daniel.jpg" alt="Daniel" className="daniel-foto"></img>
         <div className="container-sou">
-          <p className="eu-sou-daniel">Eu sou Daniel Almeida</p>
-          <p className="eu-sou-daniel-text">Desenvolvedor Web Full Stack</p>
+          <p className="eu-sou-daniel">I am Daniel Almeida</p>
+          <p className="eu-sou-daniel-text">Backend / DevOps</p>
           <p className="eu-sou-daniel-text" style={{ fontSize: "16px" }}>
-            Apaixonado por tecnologia e programação
+            The passion for technology and programming can lead to many
+            opportunities.
           </p>
         </div>
         <div className="container-logo">
@@ -51,85 +52,93 @@ function App() {
       </div>
       <div ref={myRefQuemSou} className="container-azul-escuro">
         <div className="container-azul-escuro-text">
-          <p className="sobre-mim">Sobre mim</p>
+          <p className="sobre-mim">About me</p>
           <p className="sobre-mim-text">
-            Meu nome é Daniel, estou a muitos anos na área de pecuária de corte.
-            Depois de 12 anos na fazenda, queria fazer algo diferente e resolvi
-            fazer faculdade de Análise e Desenvolvimento de Sistemas, assim
-            descobri minha paixão por desenvolvimento web. Primeiro aprendi
-            Python com Flask, fui pulando várias tecnologias até fazer o curso
-            da Dr Angela Yu The Complete 2020 Web Development Bootcamp (Udemy).
-            Fiz dezenas de cursos pela net. Finalmente entrei em um curso
-            Fullstack da Labenu em qual aprendi react, typescript, por 6 meses
-            fiz muitos projetos, além disso aprendi orientação a objeto,
-            arquitetura em camadas e infraestrutura da AWS. Agora estou a
-            procura da primeira oportunidade de trabalho na área de
-            desenvolvimento web Fullstack
+            Passionate about technology and driven by a deep understanding of
+            backend development and DevOps, I bring over 3 years of experience
+            to the Web Development. With a strong focus on Node.js, I have
+            designed scalable and efficient backend systems, developing and
+            maintaining RESTful APIs. My expertise extends to DevOps practices,
+            ensuring the reliability and performance of systems through
+            meticulous attention to detail and a commitment to best practices.
           </p>
         </div>
         <img src="group-29.svg" className="estudo" alt="Estudo" />
       </div>
       <div className="container-azul-claro">
-        <p className="meus-conhecimentos">Meus Conhecimentos</p>
+        <p className="meus-conhecimentos">My knowledge</p>
         <div className="container-conhecimentos">
           <div className="container-metade">
             <div className="metade">
-              <h2>Front-end</h2>
+              <h2>DevOps</h2>
               <h3>
-                Desenvolvimento de aplicações web utilizando React, HTML, CSS e
-                JavaScript. <br />
-                <br /> Criação de sites responsivos seguindo princípio de Mobile
-                First.
+                With a solid background in DevOps, I have honed my skills in
+                creating efficient and automated deployment pipelines. I am
+                proficient in using tools such as Docker for containerization,
+                ensuring consistency across development, testing, and production
+                environments. My experience includes implementing CI/CD
+                pipelines to streamline the software delivery process, enhancing
+                the efficiency and reliability of our systems. AWS Services
               </h3>
             </div>
             <div className="metade">
               <h2>Back-end</h2>
               <h3>
-                Aplicações utilizando NodeJS, Typescript, MySQL e MongoDB.
-                Criação de API´s para comunicação com front-end seguindo
-                princípio de Clean Code.
+                I bring extensive expertise in backend development, specializing
+                in Node.js and TypeScript to design and implement robust,
+                scalable, and efficient server-side applications. My proficiency
+                extends to database management with MongoDB, SQL and Redis,
+                ensuring data integrity and performance.
               </h3>
             </div>
           </div>
         </div>
       </div>
       <div className="container-beje">
-        <p className="meus-conhecimentos">Educação</p>
+        <p className="meus-conhecimentos">Education</p>
         <div className="container-conhecimentos">
           <div className="container-metade">
             <div className="metade">
-              <p className="curso">Web Full Stack na Labenu</p>
+              <p className="curso">Web Full Stack Labenu</p>
               <br />
               <h3>
-                Curso Web Full Stack focado em empregabilidade JavaScript com
-                clean code
+                Full Stack Web Development course focused on employability,
+                emphasizing JavaScript and clean code practices.
               </h3>
             </div>
             <div className="metade">
-              <p className="curso">Análise e desenvolvimento de sistemas</p>
+              <p className="curso">AWS Cloud Formation - Oregon EAD</p>
               <h3>
-                Cursando último período na Imepac, experiência C# windows form
-                CRUD
+                This course would be suitable for DevOps engineers, developers,
+                and system administrators looking to learn how to use AWS
+                Services to automate infrastructure provisioning and management
+                in their AWS environments | K8s | Terraform
               </h3>
             </div>
             <div className="metade">
-              <p className="curso">Agronomia</p>
-              <br />
-              <h3>Formado pela FAZU, com experiência em pecuária de corte.</h3>
+              <p className="curso">Tamwood - Web Developer Co-op</p>
+
+              <h3>
+                Design and code interactive client-facing websites using React.
+                By the end of the program, you will be able to build dynamic
+                websites using a content management system, produce and consume
+                web APIs, and write efficient code demonstrating knowledge of
+                programming concepts.
+              </h3>
             </div>
           </div>
         </div>
       </div>
       <div ref={myRefProjetos} className="container-claro">
-        <p className="meus-projetos">Meus Projetos</p>
+        <p className="meus-projetos">My projects</p>
         <Projects />
       </div>
       <div className="container-vermelho">
-        <p className="contrate-me">Contrate me !!</p>
+        <p className="contrate-me">Hire me!!</p>
         <p ref={myRefContato} className="contrate-me-text">
-          Procuro oportunidade de trabalho onde eu possa aprender, me
-          desenvolver e evoluir na minha carreia profissional. E-mail para
-          contato: vianadaniel@hotmail.com Celular: (34) 98885-8854
+          I am looking for job opportunities where I can learn, develop, and
+          evolve in my professional career. Contact email:
+          vianadaniel@hotmail.com
         </p>
         <div className="icone-container">
           <a href="https://www.linkedin.com/in/daniel-viana-almeida/">
@@ -156,10 +165,10 @@ function App() {
         </div>
       </div>
       <footer>
-        <p className="nome">Copyright &copy; 2020 Daniel Almeida</p>
+        <p className="nome">Copyright &copy; 2024 Daniel Almeida</p>
       </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

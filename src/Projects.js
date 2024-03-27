@@ -1,10 +1,10 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
 const Container = styled.div`
   overflow: auto;
   white-space: nowrap;
-`
+`;
 
 const Card = styled.div`
   margin-top: 20px;
@@ -15,14 +15,14 @@ const Card = styled.div`
   @media (max-width: 650px) {
     flex-direction: column;
   }
-`
+`;
 const ImgProject = styled.img`
   height: 150px;
   @media (max-width: 650px) {
     width: 100%;
     height: 200px;
   }
-`
+`;
 const CardContainer = styled.div`
   margin-left: 100px;
   height: 150px;
@@ -31,7 +31,7 @@ const CardContainer = styled.div`
     margin-left: 0px;
     width: 100%;
   }
-`
+`;
 const Botao = styled.button`
   border: 2px solid #33a6a6;
   border-radius: 3px;
@@ -39,24 +39,41 @@ const Botao = styled.button`
   font-size: 1.2rem;
   margin: 1rem;
   padding: 1rem 1.5rem;
-`
+`;
 
 export const Projects = () => {
   return (
     <Container>
       <Card>
-        <ImgProject src="hacker.png" alt="Projeto" />
+        <ImgProject src="terraform.gif" alt="Projeto" />
         <CardContainer>
           <p className="projetos" style={{ color: "#8d1c31" }}>
-            HackerHank
+            AWS Cloud DevOps
           </p>
           <p className="projeto-text" style={{ color: "#8d1c31" }}>
-            Gravo vídeos resolvendo algoritimos e estrutura de dados
+            My projects in AWS
           </p>
 
-          <a href="https://www.youtube.com/channel/UCgLgdwFdGWT4MIImB1PX7lQ">
+          <a href="https://palm-oregano-d0d.notion.site/AWS-DevOps-b1fdb681302748209be935a36dd1fac1">
             <Botao style={{ border: "2px solid #8d1c31", color: "#8d1c31" }}>
-              YouTube
+              Notion Web Static
+            </Botao>
+          </a>
+        </CardContainer>
+      </Card>
+      <Card>
+        <ImgProject src="terraform.gif" alt="Projeto" />
+        <CardContainer>
+          <p className="projetos" style={{ color: "#d97824" }}>
+            Backend
+          </p>
+          <p className="projeto-text" style={{ color: "#d97824" }}>
+            Some APIs projects
+          </p>
+
+          <a href="https://palm-oregano-d0d.notion.site/Backend-API-Projects-c60d5cc4637d4ee196837dbaa5c0dfb3?pvs=4">
+            <Botao style={{ border: "2px solid #d97824", color: "#d97824" }}>
+              Notion Web Static
             </Botao>
           </a>
         </CardContainer>
@@ -110,5 +127,5 @@ export const Projects = () => {
         </CardContainer>
       </Card>
     </Container>
-  )
-}
+  );
+};
