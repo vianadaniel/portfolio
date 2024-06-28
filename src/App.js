@@ -116,14 +116,9 @@ function App() {
               </h3>
             </div>
             <div className="metade">
-              <p className="curso">Tamwood - Web Developer Co-op</p>
-
+              <p className="curso">FAZU - Agronomy</p>
               <h3>
-                Design and code interactive client-facing websites using React.
-                By the end of the program, you will be able to build dynamic
-                websites using a content management system, produce and consume
-                web APIs, and write efficient code demonstrating knowledge of
-                programming concepts.
+                Bachelor's degree in Agronomy focused on the Beef Farm.
               </h3>
             </div>
           </div>
