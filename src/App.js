@@ -34,7 +34,7 @@ function App() {
         <img src="daniel.jpg" alt="Daniel" className="daniel-foto"></img>
         <div className="container-sou">
           <p className="eu-sou-daniel">I am Daniel Almeida</p>
-          <p className="eu-sou-daniel-text">Backend / DevOps</p>
+          <p className="eu-sou-daniel-text">FullStack AWS</p>
           <p className="eu-sou-daniel-text" style={{ fontSize: "16px" }}>
             The passion for technology and programming can lead to many
             opportunities.
@@ -55,7 +55,7 @@ function App() {
           <p className="sobre-mim">About me</p>
           <p className="sobre-mim-text">
             Passionate about technology and driven by a deep understanding of
-            backend development and DevOps, I bring over 3 years of experience
+            backend development and DevOps, I bring over 5 years of experience
             to the Web Development. With a strong focus on Node.js, I have
             designed scalable and efficient backend systems, developing and
             maintaining RESTful APIs. My expertise extends to DevOps practices,
@@ -82,13 +82,14 @@ function App() {
               </h3>
             </div>
             <div className="metade">
-              <h2>Back-end</h2>
+              <h2>Full-stack</h2>
               <h3>
-                I bring extensive expertise in backend development, specializing
-                in Node.js and TypeScript to design and implement robust,
-                scalable, and efficient server-side applications. My proficiency
-                extends to database management with MongoDB, SQL and Redis,
-                ensuring data integrity and performance.
+                I bring extensive expertise in full-stack development, specializing
+                in React.js for frontend and Node.js with TypeScript for backend
+                to design and implement robust, scalable, and efficient web applications.
+                My proficiency extends to database management with MongoDB and
+                automation using Puppeteer, enabling powerful web scraping and
+                testing capabilities.
               </h3>
             </div>
           </div>
@@ -112,7 +113,7 @@ function App() {
                 This course would be suitable for DevOps engineers, developers,
                 and system administrators looking to learn how to use AWS
                 Services to automate infrastructure provisioning and management
-                in their AWS environments | K8s | Terraform
+                in their AWS environments | Terraform
               </h3>
             </div>
             <div className="metade">
@@ -129,11 +130,10 @@ function App() {
         <Projects />
       </div>
       <div className="container-vermelho">
-        <p className="contrate-me">Hire me!!</p>
+        <p className="contrate-me">Contact me!!</p>
         <p ref={myRefContato} className="contrate-me-text">
-          I am looking for job opportunities where I can learn, develop, and
-          evolve in my professional career. Contact email:
-          vianadaniel@hotmail.com
+          I develop full-stack projects from scratch and create automation
+          solutions. Contact email: vianadaniel@hotmail.com
         </p>
         <div className="icone-container">
           <a href="https://www.linkedin.com/in/daniel-viana-almeida/">
